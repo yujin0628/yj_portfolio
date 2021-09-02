@@ -1,0 +1,98 @@
+@charset "UTF-8";
+
+/* portfolioDetail.jsp */
+table.type07 {
+  border-collapse: collapse;
+  line-height: 1.5;
+  border: 1px solid #ccc;
+}
+table.type07 thead {
+  border-right: 1px solid #ccc;
+  border-left: 1px solid #ccc;
+/*  background: #aac6ec;*/
+  background: #8bb7dd;
+  table-layout: fixed;
+} 
+table.type07 thead td {
+/*   padding: 10px;
+  font-weight: bold; */
+  vertical-align: top;
+  color: #fff;
+}
+
+table.type07 tbody td {
+  width: 350px;
+  padding: 10px;
+  vertical-align: top;
+  border-bottom: 1px solid #ccc;
+  background: #f0f0f0;
+}
+
+
+
+#school {
+	width: 100px;
+	height: 18px;
+	font-size: 10px;	
+}
+#major {
+	width: 100px;
+	height: 18px;
+	font-size: 10px;	
+}	
+
+#schoolInfo{
+	height: 18px;
+	font-size: 10px;	
+}
+
+.monthBox{
+	width: 100px;
+	font-size: 6px;
+}
+
+#selectBox1{
+	height: 19px;
+	width: 85px;
+	font-size: 6px;
+}
+#selectBox2{
+	height: 19px;
+	width: 85px;
+	font-size: 6px;
+}
+#licenDate{
+	width: 99px;
+	font-size: 6px;
+}
+#licenName{
+	height: 12px;
+	width: 65px;
+	font-size: 6px;	
+}
+
+#skillname{
+	width: 80px;
+	font-size: 6px;
+}
+#skillLevel{
+	width: 70px;
+	font-size: 6px;
+}
+#hobby{
+	width: 90px;
+	font-size: 6px;
+}
+
+
+
+/* main.jsp */
+#main_school{	
+	font-size: 14px;
+}
+#main_skill{
+	font-size: 14px;
+}
+#main_skill_Lev{
+	width: 70px;
+}
